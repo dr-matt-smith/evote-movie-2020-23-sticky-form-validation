@@ -145,7 +145,7 @@ When the user enters a new Movie, let's validate the fields. If there errors:
     - if the length of array `errors` is greater than zero, then we'll loop through it displaying a bulleted list of error messages:
     
         ```twig
-        {% if errors|length > 0%}
+        {% if errors|length > 0 %}
             <div  class="error">
                 <ul>
                     {% for error in errors %}
